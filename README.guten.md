@@ -1,0 +1,1 @@
+- docker-compose: add mysql, arm64 and amd64 builds
