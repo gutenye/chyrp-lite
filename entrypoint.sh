@@ -16,6 +16,7 @@ upgrade() {
 
     curl -fso /dev/null -X POST -d "upgrade=yes" http://localhost/upgrade.php
     rm /var/www/html/upgrade.php
+    rm /var/www/html/includes/upgrading.lock
     echo "Upgrade complete."
 }
 
